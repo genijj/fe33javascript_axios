@@ -3,8 +3,9 @@ var nguoiDungService = new NguoiDungService();
 getListUser();
 
 function themNguoiDungTest(){
-  console.log("Thêm người dùng");
+  console.log("Thêm người dùng lần 2");
 }
+
 
 getEle("btnThemNguoiDung").addEventListener("click", function() {
   document.getElementsByClassName("modal-title")[0].innerHTML =
