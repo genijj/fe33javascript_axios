@@ -2,6 +2,10 @@ var nguoiDungService = new NguoiDungService();
 
 getListUser();
 
+function themNguoiDungTest(){
+  console.log("Thêm người dùng");
+}
+
 getEle("btnThemNguoiDung").addEventListener("click", function() {
   document.getElementsByClassName("modal-title")[0].innerHTML =
     "Thêm người dùng";
